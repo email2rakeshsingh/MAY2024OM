@@ -24,7 +24,7 @@ public class LoginPage {
 	private By accLogOutMessage = By.cssSelector("div#content h1");
 	private By registerLink = By.xpath("//a[@class='list-group-item'][normalize-space()='Register']");
 
-	
+	private By rakeshBy = By.xpath("Rakesh");
 
 	/**
 	 * Constructor to initialize the driver
