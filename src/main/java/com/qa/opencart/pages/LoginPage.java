@@ -24,6 +24,8 @@ public class LoginPage {
 	private By accLogOutMessage = By.cssSelector("div#content h1");
 	private By registerLink = By.xpath("//a[@class='list-group-item'][normalize-space()='Register']");
 
+	private By rakeshBy = By.xpath(".rakesh");
+
 	/**
 	 * Constructor to initialize the driver
 	 * 
@@ -79,7 +81,7 @@ public class LoginPage {
 	 * 
 	 * @return true if the login link is displayed, false otherwise
 	 */
-	 @Step("RegisterFieldI Login Form")
+	@Step("RegisterFieldI Login Form")
 	public boolean isLoginLinkPresent() {
 		return eleUtil.waitForElementVisible(loginLink, Constants.DEFAULT_ELEMENT_WAIT_OUT).isDisplayed();
 	}
@@ -133,7 +135,7 @@ public class LoginPage {
 	 * @param pwd      The password to enter
 	 * @return ForgotYourPassword object after login attempt
 	 */
-	  @Step("Open Login Page")
+	@Step("Open Login Page")
 	public ForgotYourPassword fdoLogin(String username, String pwd) {
 		eleUtil.waitForElementVisible(emailAddress, Constants.DEFAULT_ELEMENT_WAIT_OUT).sendKeys(username);
 		eleUtil.waitForElementVisible(password, Constants.DEFAULT_ELEMENT_WAIT_OUT).sendKeys(pwd);
