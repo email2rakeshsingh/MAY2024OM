@@ -25,6 +25,7 @@ public class LoginPage {
 	private By registerLink = By.xpath("//a[@class='list-group-item'][normalize-space()='Register']");
 
 	private By rakeshBy = By.xpath("Rakesh");
+	private By LinkTest = By.linkText("GitTest");
 
 	/**
 	 * Constructor to initialize the driver
