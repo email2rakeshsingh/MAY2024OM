@@ -1,14 +1,14 @@
 package com.qa.opencart.pages;
 
+import org.openqa.selenium.By;
+
 public class CurtPage {
 
-	public static void main(String[] args) {
-		int a = 20;
-		int b = 10;
-		int c = a + b;
-		System.out.println(c);
-		System.out.println("product c added in cart page ");
+	private By cartBy = By.id("cart");
+
+	public void cart() {
+		System.out.println("Cart item added in group");
+		System.out.println("Cart item is in checkout");
 
 	}
-
 }
