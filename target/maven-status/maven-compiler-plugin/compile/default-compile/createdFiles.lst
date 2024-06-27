@@ -19,4 +19,5 @@ com\qa\opencart\listeners\Retry.class
 com\qa\opencart\utils\ExcelUtil.class
 com\qa\opencart\factory\DriverFactory.class
 com\qa\opencart\pages\ForgotYourPassword.class
+com\qa\opencart\pages\CurtPage.class
 com\qa\opencart\utils\Environment.class

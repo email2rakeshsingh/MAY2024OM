@@ -1,6 +1,5 @@
 package com.qa.opencart.pages;
 
-import org.omg.CORBA.PRIVATE_MEMBER;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import com.qa.opencart.utils.Constants;
@@ -24,8 +23,7 @@ public class LoginPage {
 	private By accLogOutMessage = By.cssSelector("div#content h1");
 	private By registerLink = By.xpath("//a[@class='list-group-item'][normalize-space()='Register']");
 
-	private By rakeshBy = By.xpath("Rakesh");
-	private By LinkTest = By.linkText("GitTest");
+
 
 	/**
 	 * Constructor to initialize the driver

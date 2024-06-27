@@ -1,1461 +1,605 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="38" failed="0" ignored="0" total="38" passed="0">
+<testng-results ignored="0" total="41" passed="37" failed="1" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Open Cart Test Regression Suite" duration-ms="1562" started-at="2024-06-25T10:00:10Z" finished-at="2024-06-25T10:00:12Z">
+  <suite started-at="2024-06-27T09:16:40Z" name="Open Cart Test Regression Suite" finished-at="2024-06-27T09:17:56Z" duration-ms="75592">
     <groups>
     </groups>
-    <test name="Open cart Account Page Test" duration-ms="632" started-at="2024-06-25T10:00:10Z" finished-at="2024-06-25T10:00:11Z">
-      <class name="com.qa.opencart.tests.AccountPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="setup" is-config="true" duration-ms="38" started-at="2024-06-25T10:00:10Z" finished-at="2024-06-25T10:00:10Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="accountSetup()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="accountSetup" is-config="true" duration-ms="0" started-at="2024-06-25T10:00:10Z" finished-at="2024-06-25T10:00:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accountSetup -->
-        <test-method status="SKIP" signature="LogoutLinkPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="LogoutLinkPresent" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutLinkPresent -->
-        <test-method status="SKIP" signature="accountTitlrTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="accountTitlrTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accountTitlrTest -->
-        <test-method status="SKIP" signature="addToCartButtonPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="addToCartButtonPresent" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCartButtonPresent -->
-        <test-method status="SKIP" signature="footerLinkAllList()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="footerLinkAllList" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- footerLinkAllList -->
-        <test-method status="SKIP" signature="getMyAccountPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="getMyAccountPresent" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getMyAccountPresent -->
-        <test-method status="SKIP" signature="getPageUrlTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="getPageUrlTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPageUrlTest -->
-        <test-method status="SKIP" signature="getcontentMainHeaderList()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="getcontentMainHeaderList" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getcontentMainHeaderList -->
-        <test-method status="SKIP" signature="homePageHeader()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="homePageHeader" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageHeader -->
-        <test-method status="SKIP" signature="searchBoxPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="searchBoxPresent" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchBoxPresent -->
-        <test-method status="SKIP" signature="userLogOutPage()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2e27d72f]" name="userLogOutPage" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userLogOutPage -->
-      </class> <!-- com.qa.opencart.tests.AccountPageTest -->
-    </test> <!-- Open cart Account Page Test -->
-    <test name="Open cart Login Page Test" duration-ms="632" started-at="2024-06-25T10:00:10Z" finished-at="2024-06-25T10:00:11Z">
+    <test started-at="2024-06-27T09:16:40Z" name="Open cart Login Page Test" finished-at="2024-06-27T09:17:00Z" duration-ms="19420">
       <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="setup" is-config="true" duration-ms="37" started-at="2024-06-25T10:00:10Z" finished-at="2024-06-25T10:00:10Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:40Z" name="setup" finished-at="2024-06-27T09:16:55Z" duration-ms="14899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyEmailAddressFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="verifyEmailAddressFieldIsPresent" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifyEmailAddressFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:56Z" name="verifyEmailAddressFieldIsPresent" finished-at="2024-06-27T09:16:56Z" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmailAddressFieldIsPresent -->
-        <test-method status="SKIP" signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="verifyFailTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:57Z" name="verifyFailTest" finished-at="2024-06-27T09:16:57Z" duration-ms="64" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login page title doesn't match expected. expected [Opencart] but found [Rakesh]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
+              <![CDATA[java.lang.AssertionError: Login page title doesn't match expected. expected [Opencart] but found [Rakesh]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
 at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
 at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFailTest -->
-        <test-method status="SKIP" signature="verifyLoginLinkIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="verifyLoginLinkIsPresent" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:57Z" name="verifyFailTest" finished-at="2024-06-27T09:16:57Z" duration-ms="51" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login page title doesn't match expected. expected [Opencart] but found [Rakesh]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
+              <![CDATA[java.lang.AssertionError: Login page title doesn't match expected. expected [Opencart] but found [Rakesh]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
 at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
 at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailTest -->
+        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:57Z" name="verifyFailTest" finished-at="2024-06-27T09:16:57Z" duration-ms="73" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login page title doesn't match expected. expected [Opencart] but found [Rakesh]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login page title doesn't match expected. expected [Opencart] but found [Rakesh]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailTest -->
+        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:57Z" name="verifyFailTest" finished-at="2024-06-27T09:16:57Z" duration-ms="41" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login page title doesn't match expected. expected [Opencart] but found [Rakesh]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login page title doesn't match expected. expected [Opencart] but found [Rakesh]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailTest -->
+        <test-method signature="verifyLoginLinkIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:57Z" name="verifyLoginLinkIsPresent" finished-at="2024-06-27T09:16:58Z" duration-ms="411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginLinkIsPresent -->
-        <test-method status="SKIP" signature="verifyLoginPageTitle()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="verifyLoginPageTitle" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:58Z" name="verifyLoginPageTitle" finished-at="2024-06-27T09:16:58Z" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method status="SKIP" signature="verifyLoginPageUrl()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="verifyLoginPageUrl" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifyLoginPageUrl()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:58Z" name="verifyLoginPageUrl" finished-at="2024-06-27T09:16:58Z" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageUrl -->
-        <test-method status="SKIP" signature="verifyPasswordFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="verifyPasswordFieldIsPresent" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifyPasswordFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:58Z" name="verifyPasswordFieldIsPresent" finished-at="2024-06-27T09:16:58Z" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPasswordFieldIsPresent -->
-        <test-method status="SKIP" signature="verifyRegisterFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="verifyRegisterFieldIsPresent" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifyRegisterFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:58Z" name="verifyRegisterFieldIsPresent" finished-at="2024-06-27T09:16:58Z" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterFieldIsPresent -->
-        <test-method status="SKIP" signature="verifyReturningCustomerTextIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="verifyReturningCustomerTextIsPresent" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifyReturningCustomerTextIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:58Z" name="verifyReturningCustomerTextIsPresent" finished-at="2024-06-27T09:16:58Z" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyReturningCustomerTextIsPresent -->
-        <test-method status="SKIP" signature="verifySearchBoxIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="verifySearchBoxIsPresent" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifySearchBoxIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:58Z" name="verifySearchBoxIsPresent" finished-at="2024-06-27T09:16:58Z" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchBoxIsPresent -->
-        <test-method status="SKIP" signature="verifySuccessfulLogin()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3a71c100]" name="verifySuccessfulLogin" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifySuccessfulLogin()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3b46dd8]" started-at="2024-06-27T09:16:58Z" name="verifySuccessfulLogin" finished-at="2024-06-27T09:17:00Z" duration-ms="1404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLogin -->
       </class> <!-- com.qa.opencart.tests.LoginPageTest -->
     </test> <!-- Open cart Login Page Test -->
-    <test name="Open cart Search Result PageTest" duration-ms="218" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-      <class name="com.qa.opencart.tests.SearchResultPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="setup" is-config="true" duration-ms="1" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+    <test started-at="2024-06-27T09:16:40Z" name="Open cart Account Page Test" finished-at="2024-06-27T09:17:00Z" duration-ms="19842">
+      <class name="com.qa.opencart.tests.AccountPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:40Z" name="setup" finished-at="2024-06-27T09:16:55Z" duration-ms="14392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="ProductDesc()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="ProductDesc" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:55Z" name="accountSetup" finished-at="2024-06-27T09:16:57Z" duration-ms="1936" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ProductDesc -->
-        <test-method status="SKIP" signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="doSearch" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getProductName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- accountSetup -->
+        <test-method signature="LogoutLinkPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:57Z" name="LogoutLinkPresent" finished-at="2024-06-27T09:16:57Z" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doSearch -->
-        <test-method status="SKIP" signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="doSearch" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getProductName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- LogoutLinkPresent -->
+        <test-method signature="accountTitlrTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:57Z" name="accountTitlrTest" finished-at="2024-06-27T09:16:57Z" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doSearch -->
-        <test-method status="SKIP" signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="doSearch" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getProductName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- accountTitlrTest -->
+        <test-method signature="addToCartButtonPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:57Z" name="addToCartButtonPresent" finished-at="2024-06-27T09:16:58Z" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doSearch -->
-        <test-method status="SKIP" signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="doSearch" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getProductName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- addToCartButtonPresent -->
+        <test-method signature="footerLinkAllList()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:58Z" name="footerLinkAllList" finished-at="2024-06-27T09:16:59Z" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doSearch -->
-        <test-method status="SKIP" signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="imagesCountTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getProductImagesName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- footerLinkAllList -->
+        <test-method signature="getMyAccountPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:59Z" name="getMyAccountPresent" finished-at="2024-06-27T09:16:59Z" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- imagesCountTest -->
-        <test-method status="SKIP" signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="imagesCountTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getProductImagesName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- getMyAccountPresent -->
+        <test-method signature="getPageUrlTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:59Z" name="getPageUrlTest" finished-at="2024-06-27T09:16:59Z" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- imagesCountTest -->
-        <test-method status="SKIP" signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="imagesCountTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getProductImagesName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- getPageUrlTest -->
+        <test-method signature="getcontentMainHeaderList()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:59Z" name="getcontentMainHeaderList" finished-at="2024-06-27T09:16:59Z" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- imagesCountTest -->
-        <test-method status="SKIP" signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="imagesCountTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getProductImagesName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- getcontentMainHeaderList -->
+        <test-method signature="homePageHeader()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:59Z" name="homePageHeader" finished-at="2024-06-27T09:16:59Z" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- imagesCountTest -->
-        <test-method status="SKIP" signature="productDtaTest()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="productDtaTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- homePageHeader -->
+        <test-method signature="searchBoxPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:59Z" name="searchBoxPresent" finished-at="2024-06-27T09:16:59Z" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productDtaTest -->
-        <test-method status="SKIP" signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="productInfoTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getMainProductName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- searchBoxPresent -->
+        <test-method signature="userLogOutPage()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@2babf189]" started-at="2024-06-27T09:16:59Z" name="userLogOutPage" finished-at="2024-06-27T09:17:00Z" duration-ms="744" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productInfoTest -->
-        <test-method status="SKIP" signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="productInfoTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getMainProductName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoTest -->
-        <test-method status="SKIP" signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="productInfoTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getMainProductName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoTest -->
-        <test-method status="SKIP" signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@d4ab71a]" name="productInfoTest" duration-ms="0" started-at="2024-06-25T10:00:11Z" data-provider="getMainProductName" finished-at="2024-06-25T10:00:11Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoTest -->
-      </class> <!-- com.qa.opencart.tests.SearchResultPageTest -->
-    </test> <!-- Open cart Search Result PageTest -->
-    <test name="Open cart Register Test" duration-ms="1562" started-at="2024-06-25T10:00:10Z" finished-at="2024-06-25T10:00:12Z">
+        </test-method> <!-- userLogOutPage -->
+      </class> <!-- com.qa.opencart.tests.AccountPageTest -->
+    </test> <!-- Open cart Account Page Test -->
+    <test started-at="2024-06-27T09:16:40Z" name="Open cart Register Test" finished-at="2024-06-27T09:17:09Z" duration-ms="28602">
       <class name="com.qa.opencart.tests.RegisterTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.qa.opencart.tests.RegisterTest@75201592]" name="setup" is-config="true" duration-ms="40" started-at="2024-06-25T10:00:10Z" finished-at="2024-06-25T10:00:10Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.RegisterTest@118102ee]" started-at="2024-06-27T09:16:40Z" name="setup" finished-at="2024-06-27T09:16:55Z" duration-ms="14392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="regSetup()[pri:0, instance:com.qa.opencart.tests.RegisterTest@75201592]" name="regSetup" is-config="true" duration-ms="0" started-at="2024-06-25T10:00:10Z" finished-at="2024-06-25T10:00:10Z">
+        <test-method is-config="true" signature="regSetup()[pri:0, instance:com.qa.opencart.tests.RegisterTest@118102ee]" started-at="2024-06-27T09:16:55Z" name="regSetup" finished-at="2024-06-27T09:16:56Z" duration-ms="1454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regSetup -->
-        <test-method status="SKIP" signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@75201592]" name="userRegisterTest" duration-ms="0" started-at="2024-06-25T10:00:12Z" data-provider="getRegisterTestData" finished-at="2024-06-25T10:00:12Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@118102ee]" started-at="2024-06-27T09:16:59Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-06-27T09:17:02Z" duration-ms="2747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rakesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[963256985]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rak@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegisterTest -->
-        <test-method status="SKIP" signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@75201592]" name="userRegisterTest" duration-ms="0" started-at="2024-06-25T10:00:12Z" data-provider="getRegisterTestData" finished-at="2024-06-25T10:00:12Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@118102ee]" started-at="2024-06-27T09:17:02Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-06-27T09:17:05Z" duration-ms="2915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nehah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[963256985]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rak@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegisterTest -->
-        <test-method status="SKIP" signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@75201592]" name="userRegisterTest" duration-ms="0" started-at="2024-06-25T10:00:12Z" data-provider="getRegisterTestData" finished-at="2024-06-25T10:00:12Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@118102ee]" started-at="2024-06-27T09:17:05Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-06-27T09:17:07Z" duration-ms="2598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aarush]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[963256985]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rak@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegisterTest -->
-        <test-method status="SKIP" signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@75201592]" name="userRegisterTest" duration-ms="0" started-at="2024-06-25T10:00:12Z" data-provider="getRegisterTestData" finished-at="2024-06-25T10:00:12Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.Properties$LineReader.readLine(Properties.java:434)
-at java.util.Properties.load0(Properties.java:353)
-at java.util.Properties.load(Properties.java:341)
-at com.qa.opencart.factory.DriverFactory.init_prop(DriverFactory.java:135)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@118102ee]" started-at="2024-06-27T09:17:07Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-06-27T09:17:09Z" duration-ms="1783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aaruk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[963256985]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rak@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegisterTest -->
       </class> <!-- com.qa.opencart.tests.RegisterTest -->
     </test> <!-- Open cart Register Test -->
+    <test started-at="2024-06-27T09:17:00Z" name="Open cart Search Result PageTest" finished-at="2024-06-27T09:17:56Z" duration-ms="56066">
+      <class name="com.qa.opencart.tests.SearchResultPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:00Z" name="setup" finished-at="2024-06-27T09:17:07Z" duration-ms="7273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProductDesc()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:07Z" name="ProductDesc" finished-at="2024-06-27T09:17:13Z" duration-ms="6273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductDesc -->
+        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:13Z" name="doSearch" data-provider="getProductName" finished-at="2024-06-27T09:17:19Z" duration-ms="5486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:19Z" name="doSearch" data-provider="getProductName" finished-at="2024-06-27T09:17:24Z" duration-ms="5488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Imac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:24Z" name="doSearch" data-provider="getProductName" finished-at="2024-06-27T09:17:30Z" duration-ms="5584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:30Z" name="doSearch" data-provider="getProductName" finished-at="2024-06-27T09:17:36Z" duration-ms="5482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:36Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-06-27T09:17:41Z" duration-ms="5910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imagesCountTest -->
+        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:41Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-06-27T09:17:47Z" duration-ms="5851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imagesCountTest -->
+        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:47Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-06-27T09:17:51Z" duration-ms="3388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple Cinema 30"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imagesCountTest -->
+        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:51Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-06-27T09:17:52Z" duration-ms="866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imagesCountTest -->
+        <test-method signature="productDtaTest()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:52Z" name="productDtaTest" finished-at="2024-06-27T09:17:52Z" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDtaTest -->
+        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:52Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-06-27T09:17:53Z" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoTest -->
+        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:53Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-06-27T09:17:54Z" duration-ms="883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoTest -->
+        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:54Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-06-27T09:17:55Z" duration-ms="849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple Cinema 30"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoTest -->
+        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@41fed14f]" started-at="2024-06-27T09:17:55Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-06-27T09:17:56Z" duration-ms="899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoTest -->
+      </class> <!-- com.qa.opencart.tests.SearchResultPageTest -->
+    </test> <!-- Open cart Search Result PageTest -->
   </suite> <!-- Open Cart Test Regression Suite -->
 </testng-results>
