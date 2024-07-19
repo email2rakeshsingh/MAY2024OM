@@ -1,273 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="41" passed="37" failed="1" skipped="3">
+<testng-results ignored="0" total="44" passed="36" failed="2" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-27T09:02:40Z" name="Open Cart Test Regression Suite" finished-at="2024-06-27T09:03:37Z" duration-ms="56453">
+  <suite started-at="2024-07-19T10:54:45Z" name="Open Cart Test Regression Suite" finished-at="2024-07-19T10:55:43Z" duration-ms="57115">
     <groups>
     </groups>
-    <test started-at="2024-06-27T09:02:40Z" name="Open cart Login Page Test" finished-at="2024-06-27T09:02:57Z" duration-ms="16891">
-      <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:40Z" name="setup" finished-at="2024-06-27T09:02:51Z" duration-ms="11018" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyEmailAddressFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:51Z" name="verifyEmailAddressFieldIsPresent" finished-at="2024-06-27T09:02:53Z" duration-ms="1305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEmailAddressFieldIsPresent -->
-        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:53Z" name="verifyFailTest" finished-at="2024-06-27T09:02:53Z" duration-ms="42" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login page title doesn't match expected. expected [Opencart] but found [Rakesh]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login page title doesn't match expected. expected [Opencart] but found [Rakesh]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFailTest -->
-        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:53Z" name="verifyFailTest" finished-at="2024-06-27T09:02:54Z" duration-ms="35" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login page title doesn't match expected. expected [Opencart] but found [Rakesh]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login page title doesn't match expected. expected [Opencart] but found [Rakesh]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFailTest -->
-        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:54Z" name="verifyFailTest" finished-at="2024-06-27T09:02:54Z" duration-ms="30" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login page title doesn't match expected. expected [Opencart] but found [Rakesh]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login page title doesn't match expected. expected [Opencart] but found [Rakesh]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFailTest -->
-        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:54Z" name="verifyFailTest" finished-at="2024-06-27T09:02:54Z" duration-ms="41" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login page title doesn't match expected. expected [Opencart] but found [Rakesh]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login page title doesn't match expected. expected [Opencart] but found [Rakesh]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFailTest -->
-        <test-method signature="verifyLoginLinkIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:54Z" name="verifyLoginLinkIsPresent" finished-at="2024-06-27T09:02:54Z" duration-ms="398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginLinkIsPresent -->
-        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:54Z" name="verifyLoginPageTitle" finished-at="2024-06-27T09:02:54Z" duration-ms="271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyLoginPageUrl()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:55Z" name="verifyLoginPageUrl" finished-at="2024-06-27T09:02:55Z" duration-ms="238" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageUrl -->
-        <test-method signature="verifyPasswordFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:55Z" name="verifyPasswordFieldIsPresent" finished-at="2024-06-27T09:02:55Z" duration-ms="98" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPasswordFieldIsPresent -->
-        <test-method signature="verifyRegisterFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:55Z" name="verifyRegisterFieldIsPresent" finished-at="2024-06-27T09:02:55Z" duration-ms="81" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterFieldIsPresent -->
-        <test-method signature="verifyReturningCustomerTextIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:55Z" name="verifyReturningCustomerTextIsPresent" finished-at="2024-06-27T09:02:55Z" duration-ms="75" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyReturningCustomerTextIsPresent -->
-        <test-method signature="verifySearchBoxIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:55Z" name="verifySearchBoxIsPresent" finished-at="2024-06-27T09:02:55Z" duration-ms="105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchBoxIsPresent -->
-        <test-method signature="verifySuccessfulLogin()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@396e6d9]" started-at="2024-06-27T09:02:55Z" name="verifySuccessfulLogin" finished-at="2024-06-27T09:02:57Z" duration-ms="1858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySuccessfulLogin -->
-      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
-    </test> <!-- Open cart Login Page Test -->
-    <test started-at="2024-06-27T09:02:40Z" name="Open cart Account Page Test" finished-at="2024-06-27T09:02:58Z" duration-ms="17743">
+    <test started-at="2024-07-19T10:54:45Z" name="Open cart Account Page Test" finished-at="2024-07-19T10:55:05Z" duration-ms="19174">
       <class name="com.qa.opencart.tests.AccountPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:40Z" name="setup" finished-at="2024-06-27T09:02:52Z" duration-ms="12110" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:54:45Z" name="setup" finished-at="2024-07-19T10:54:57Z" duration-ms="11878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="accountSetup()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:52Z" name="accountSetup" finished-at="2024-06-27T09:02:54Z" duration-ms="2094" status="PASS">
+        <test-method is-config="true" signature="accountSetup()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:54:57Z" name="accountSetup" finished-at="2024-07-19T10:54:59Z" duration-ms="1656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountSetup -->
-        <test-method signature="LogoutLinkPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:54Z" name="LogoutLinkPresent" finished-at="2024-06-27T09:02:55Z" duration-ms="342" status="PASS">
+        <test-method signature="accountTitleTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:54:59Z" name="accountTitleTest" finished-at="2024-07-19T10:54:59Z" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LogoutLinkPresent -->
-        <test-method signature="accountTitlrTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:55Z" name="accountTitlrTest" finished-at="2024-06-27T09:02:55Z" duration-ms="30" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accountTitlrTest -->
-        <test-method signature="addToCartButtonPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:55Z" name="addToCartButtonPresent" finished-at="2024-06-27T09:02:55Z" duration-ms="104" status="PASS">
+        </test-method> <!-- accountTitleTest -->
+        <test-method signature="addToCartButtonPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:54:59Z" name="addToCartButtonPresent" finished-at="2024-07-19T10:54:59Z" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartButtonPresent -->
-        <test-method signature="footerLinkAllList()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:55Z" name="footerLinkAllList" finished-at="2024-06-27T09:02:56Z" duration-ms="1508" status="PASS">
+        <test-method signature="footerLinkAllList()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:54:59Z" name="footerLinkAllList" finished-at="2024-07-19T10:55:01Z" duration-ms="1800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerLinkAllList -->
-        <test-method signature="getMyAccountPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:56Z" name="getMyAccountPresent" finished-at="2024-06-27T09:02:57Z" duration-ms="71" status="PASS">
+        <test-method signature="getContentMainHeaderList()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:55:01Z" name="getContentMainHeaderList" finished-at="2024-07-19T10:55:01Z" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getMyAccountPresent -->
-        <test-method signature="getPageUrlTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:57Z" name="getPageUrlTest" finished-at="2024-06-27T09:02:57Z" duration-ms="17" status="PASS">
+        </test-method> <!-- getContentMainHeaderList -->
+        <test-method signature="getPageUrlTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:55:01Z" name="getPageUrlTest" finished-at="2024-07-19T10:55:01Z" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageUrlTest -->
-        <test-method signature="getcontentMainHeaderList()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:57Z" name="getcontentMainHeaderList" finished-at="2024-06-27T09:02:57Z" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getcontentMainHeaderList -->
-        <test-method signature="homePageHeader()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:57Z" name="homePageHeader" finished-at="2024-06-27T09:02:57Z" duration-ms="91" status="PASS">
+        <test-method signature="homePageHeader()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:55:01Z" name="homePageHeader" finished-at="2024-07-19T10:55:02Z" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageHeader -->
-        <test-method signature="searchBoxPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:57Z" name="searchBoxPresent" finished-at="2024-06-27T09:02:57Z" duration-ms="84" status="PASS">
+        <test-method signature="logoutLinkPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:55:02Z" name="logoutLinkPresent" finished-at="2024-07-19T10:55:02Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutLinkPresent -->
+        <test-method signature="myAccountPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:55:02Z" name="myAccountPresent" finished-at="2024-07-19T10:55:02Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAccountPresent -->
+        <test-method signature="searchBoxPresent()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:55:02Z" name="searchBoxPresent" finished-at="2024-07-19T10:55:02Z" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchBoxPresent -->
-        <test-method signature="userLogOutPage()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6b2e0f78]" started-at="2024-06-27T09:02:57Z" name="userLogOutPage" finished-at="2024-06-27T09:02:58Z" duration-ms="826" status="PASS">
+        <test-method signature="userLogOutPage()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@771cbb1a]" started-at="2024-07-19T10:55:02Z" name="userLogOutPage" finished-at="2024-07-19T10:55:05Z" duration-ms="2558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogOutPage -->
       </class> <!-- com.qa.opencart.tests.AccountPageTest -->
     </test> <!-- Open cart Account Page Test -->
-    <test started-at="2024-06-27T09:02:40Z" name="Open cart Register Test" finished-at="2024-06-27T09:03:20Z" duration-ms="39607">
+    <test started-at="2024-07-19T10:54:45Z" name="Open cart Register Test" finished-at="2024-07-19T10:55:23Z" duration-ms="38011">
       <class name="com.qa.opencart.tests.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.RegisterTest@7afb1741]" started-at="2024-06-27T09:02:40Z" name="setup" finished-at="2024-06-27T09:02:52Z" duration-ms="12007" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.RegisterTest@7bebcd65]" started-at="2024-07-19T10:54:45Z" name="setup" finished-at="2024-07-19T10:54:57Z" duration-ms="11878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regSetup()[pri:0, instance:com.qa.opencart.tests.RegisterTest@7afb1741]" started-at="2024-06-27T09:02:52Z" name="regSetup" finished-at="2024-06-27T09:02:53Z" duration-ms="1055" status="PASS">
+        <test-method is-config="true" signature="regSetup()[pri:0, instance:com.qa.opencart.tests.RegisterTest@7bebcd65]" started-at="2024-07-19T10:54:57Z" name="regSetup" finished-at="2024-07-19T10:54:59Z" duration-ms="1168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regSetup -->
-        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@7afb1741]" started-at="2024-06-27T09:02:56Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-06-27T09:02:59Z" duration-ms="3364" status="PASS">
+        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@7bebcd65]" started-at="2024-07-19T10:55:01Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-07-19T10:55:10Z" duration-ms="9268" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -298,7 +98,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegisterTest -->
-        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@7afb1741]" started-at="2024-06-27T09:02:59Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-06-27T09:03:04Z" duration-ms="4831" status="PASS">
+        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@7bebcd65]" started-at="2024-07-19T10:55:10Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-07-19T10:55:16Z" duration-ms="5717" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -329,7 +129,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegisterTest -->
-        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@7afb1741]" started-at="2024-06-27T09:03:04Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-06-27T09:03:12Z" duration-ms="7283" status="PASS">
+        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@7bebcd65]" started-at="2024-07-19T10:55:16Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-07-19T10:55:20Z" duration-ms="4272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -360,7 +160,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegisterTest -->
-        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@7afb1741]" started-at="2024-06-27T09:03:12Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-06-27T09:03:20Z" duration-ms="8106" status="PASS">
+        <test-method signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterTest@7bebcd65]" started-at="2024-07-19T10:55:20Z" name="userRegisterTest" data-provider="getRegisterTestData" finished-at="2024-07-19T10:55:23Z" duration-ms="3623" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -393,17 +193,17 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- userRegisterTest -->
       </class> <!-- com.qa.opencart.tests.RegisterTest -->
     </test> <!-- Open cart Register Test -->
-    <test started-at="2024-06-27T09:02:57Z" name="Open cart Search Result PageTest" finished-at="2024-06-27T09:03:37Z" duration-ms="39397">
+    <test started-at="2024-07-19T10:55:05Z" name="Open cart Search Result PageTest" finished-at="2024-07-19T10:55:34Z" duration-ms="29290">
       <class name="com.qa.opencart.tests.SearchResultPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:02:57Z" name="setup" finished-at="2024-06-27T09:03:11Z" duration-ms="13613" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:05Z" name="setup" finished-at="2024-07-19T10:55:10Z" duration-ms="5430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ProductDesc()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:11Z" name="ProductDesc" finished-at="2024-06-27T09:03:17Z" duration-ms="6196" status="PASS">
+        <test-method signature="ProductDesc()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:10Z" name="ProductDesc" finished-at="2024-07-19T10:55:14Z" duration-ms="3396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductDesc -->
-        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:17Z" name="doSearch" data-provider="getProductName" finished-at="2024-06-27T09:03:19Z" duration-ms="2080" status="PASS">
+        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:14Z" name="doSearch" data-provider="getProductName" finished-at="2024-07-19T10:55:15Z" duration-ms="1051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -414,7 +214,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSearch -->
-        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:19Z" name="doSearch" data-provider="getProductName" finished-at="2024-06-27T09:03:21Z" duration-ms="1830" status="PASS">
+        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:15Z" name="doSearch" data-provider="getProductName" finished-at="2024-07-19T10:55:16Z" duration-ms="1505" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -425,7 +225,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSearch -->
-        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:21Z" name="doSearch" data-provider="getProductName" finished-at="2024-06-27T09:03:23Z" duration-ms="2305" status="PASS">
+        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:16Z" name="doSearch" data-provider="getProductName" finished-at="2024-07-19T10:55:18Z" duration-ms="1605" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -436,7 +236,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSearch -->
-        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:23Z" name="doSearch" data-provider="getProductName" finished-at="2024-06-27T09:03:25Z" duration-ms="1800" status="PASS">
+        <test-method signature="doSearch(java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:18Z" name="doSearch" data-provider="getProductName" finished-at="2024-07-19T10:55:19Z" duration-ms="891" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -447,7 +247,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSearch -->
-        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:25Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-06-27T09:03:27Z" duration-ms="2020" status="PASS">
+        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:19Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-07-19T10:55:20Z" duration-ms="1733" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -468,7 +268,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imagesCountTest -->
-        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:27Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-06-27T09:03:29Z" duration-ms="1204" status="PASS">
+        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:20Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-07-19T10:55:22Z" duration-ms="1622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -489,7 +289,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imagesCountTest -->
-        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:29Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-06-27T09:03:30Z" duration-ms="1077" status="PASS">
+        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:22Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-07-19T10:55:24Z" duration-ms="2299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -510,7 +310,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imagesCountTest -->
-        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:30Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-06-27T09:03:31Z" duration-ms="965" status="PASS">
+        <test-method signature="imagesCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:24Z" name="imagesCountTest" data-provider="getProductImagesName" finished-at="2024-07-19T10:55:26Z" duration-ms="1498" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -531,11 +331,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imagesCountTest -->
-        <test-method signature="productDtaTest()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:31Z" name="productDtaTest" finished-at="2024-06-27T09:03:32Z" duration-ms="1305" status="PASS">
+        <test-method signature="productDtaTest()[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:26Z" name="productDtaTest" finished-at="2024-07-19T10:55:27Z" duration-ms="1631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productDtaTest -->
-        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:32Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-06-27T09:03:33Z" duration-ms="1026" status="PASS">
+        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:27Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-07-19T10:55:29Z" duration-ms="2018" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -551,7 +351,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productInfoTest -->
-        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:33Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-06-27T09:03:34Z" duration-ms="1111" status="PASS">
+        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:30Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-07-19T10:55:31Z" duration-ms="1411" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -567,7 +367,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productInfoTest -->
-        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:34Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-06-27T09:03:35Z" duration-ms="1199" status="PASS">
+        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:31Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-07-19T10:55:33Z" duration-ms="1602" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -583,7 +383,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productInfoTest -->
-        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@1460c81d]" started-at="2024-06-27T09:03:35Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-06-27T09:03:37Z" duration-ms="1330" status="PASS">
+        <test-method signature="productInfoTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.SearchResultPageTest@b174a73]" started-at="2024-07-19T10:55:33Z" name="productInfoTest" data-provider="getMainProductName" finished-at="2024-07-19T10:55:34Z" duration-ms="1433" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -601,5 +401,429 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- productInfoTest -->
       </class> <!-- com.qa.opencart.tests.SearchResultPageTest -->
     </test> <!-- Open cart Search Result PageTest -->
+    <test started-at="2024-07-19T10:54:45Z" name="Open cart Login Page Test" finished-at="2024-07-19T10:55:43Z" duration-ms="57115">
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:54:45Z" name="setup" finished-at="2024-07-19T10:54:57Z" duration-ms="11878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmailAddressFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:54:57Z" name="verifyEmailAddressFieldIsPresent" finished-at="2024-07-19T10:54:58Z" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailAddressFieldIsPresent -->
+        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:54:58Z" name="verifyFailTest" finished-at="2024-07-19T10:55:04Z" duration-ms="5511" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:234)
+at com.qa.opencart.pages.LoginPage.getPageTitle(LoginPage.java:44)
+at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailTest -->
+        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:04Z" name="verifyFailTest" finished-at="2024-07-19T10:55:09Z" duration-ms="5283" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:234)
+at com.qa.opencart.pages.LoginPage.getPageTitle(LoginPage.java:44)
+at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailTest -->
+        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:09Z" name="verifyFailTest" finished-at="2024-07-19T10:55:14Z" duration-ms="5286" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:234)
+at com.qa.opencart.pages.LoginPage.getPageTitle(LoginPage.java:44)
+at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailTest -->
+        <test-method signature="verifyFailTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:14Z" name="verifyFailTest" finished-at="2024-07-19T10:55:20Z" duration-ms="5293" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:234)
+at com.qa.opencart.pages.LoginPage.getPageTitle(LoginPage.java:44)
+at com.qa.opencart.tests.LoginPageTest.verifyFailTest(LoginPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailTest -->
+        <test-method signature="verifyLoginLinkIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:20Z" name="verifyLoginLinkIsPresent" finished-at="2024-07-19T10:55:20Z" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLinkIsPresent -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:20Z" name="verifyLoginPageTitle" finished-at="2024-07-19T10:55:25Z" duration-ms="5265" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:234)
+at com.qa.opencart.pages.LoginPage.getPageTitle(LoginPage.java:44)
+at com.qa.opencart.tests.LoginPageTest.verifyLoginPageTitle(LoginPageTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:25Z" name="verifyLoginPageTitle" finished-at="2024-07-19T10:55:30Z" duration-ms="5206" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:234)
+at com.qa.opencart.pages.LoginPage.getPageTitle(LoginPage.java:44)
+at com.qa.opencart.tests.LoginPageTest.verifyLoginPageTitle(LoginPageTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:30Z" name="verifyLoginPageTitle" finished-at="2024-07-19T10:55:36Z" duration-ms="5273" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:234)
+at com.qa.opencart.pages.LoginPage.getPageTitle(LoginPage.java:44)
+at com.qa.opencart.tests.LoginPageTest.verifyLoginPageTitle(LoginPageTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:36Z" name="verifyLoginPageTitle" finished-at="2024-07-19T10:55:41Z" duration-ms="5273" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "My Account". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.CT0fFC}, goog:chromeOptions: {debuggerAddress: localhost:36855}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 37ebe66d793181a0226481a26f7...}
+Session ID: 37ebe66d793181a0226481a26f73f534
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:234)
+at com.qa.opencart.pages.LoginPage.getPageTitle(LoginPage.java:44)
+at com.qa.opencart.tests.LoginPageTest.verifyLoginPageTitle(LoginPageTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyLoginPageUrl()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:41Z" name="verifyLoginPageUrl" finished-at="2024-07-19T10:55:41Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageUrl -->
+        <test-method signature="verifyPasswordFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:41Z" name="verifyPasswordFieldIsPresent" finished-at="2024-07-19T10:55:41Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordFieldIsPresent -->
+        <test-method signature="verifyRegisterFieldIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:41Z" name="verifyRegisterFieldIsPresent" finished-at="2024-07-19T10:55:41Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterFieldIsPresent -->
+        <test-method signature="verifyReturningCustomerTextIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:41Z" name="verifyReturningCustomerTextIsPresent" finished-at="2024-07-19T10:55:41Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReturningCustomerTextIsPresent -->
+        <test-method signature="verifySearchBoxIsPresent()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:41Z" name="verifySearchBoxIsPresent" finished-at="2024-07-19T10:55:41Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxIsPresent -->
+        <test-method signature="verifySuccessfulLogin()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4efc25fc]" started-at="2024-07-19T10:55:41Z" name="verifySuccessfulLogin" finished-at="2024-07-19T10:55:43Z" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogin -->
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </test> <!-- Open cart Login Page Test -->
   </suite> <!-- Open Cart Test Regression Suite -->
 </testng-results>

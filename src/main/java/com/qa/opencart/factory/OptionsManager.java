@@ -3,53 +3,65 @@ package com.qa.opencart.factory;
 import java.util.Properties;
 
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.ie.InternetExplorerOptions;
 
 public class OptionsManager {
 
-    private Properties properties;
-    private ChromeOptions co;
-    private FirefoxOptions fo;
-    private EdgeOptions eo;
+	private Properties prop;
+	private ChromeOptions co;
+	private FirefoxOptions fo;
+	private EdgeDriver ed;
 
-    /**
-     * @param properties
-     */
-    public OptionsManager(Properties properties) {
-        this.properties = properties;
-    }
+	public OptionsManager(Properties prop) {
+		this.prop = prop;
 
-    public ChromeOptions getChromeOptions() {
-        co = new ChromeOptions();
-        if (Boolean.parseBoolean(properties.getProperty("headless"))) {
-            co.addArguments("--headless");
-        }
-        if (Boolean.parseBoolean(properties.getProperty("incognito"))) {
-            co.addArguments("--incognito");
-        }
-        return co;
-    }
+	}
 
-    public FirefoxOptions getFirefoxOptions() {
-        fo = new FirefoxOptions();
-        if (Boolean.parseBoolean(properties.getProperty("headless"))) {
-            fo.addArguments("--headless");
-        }
-        if (Boolean.parseBoolean(properties.getProperty("incognito"))) {
-            fo.addArguments("--incognito");
-        }
-        return fo;
-    }
+	public ChromeOptions getChromeOption() {
+		co = new ChromeOptions();
 
-    public EdgeOptions getEdgeOptions() {
-        eo = new EdgeOptions();
-        if (Boolean.parseBoolean(properties.getProperty("headless"))) {
-            eo.addArguments("--headless");
-        }
-        if (Boolean.parseBoolean(properties.getProperty("incognito"))) {
-            eo.addArguments("--incognito");
-        }
-        return eo;
-    }
+		if (Boolean.parseBoolean(prop.getProperty("remote"))) {
+			co.setCapability("enableVNC", true);
+			co.setBrowserVersion(prop.getProperty("browserversion"));
+
+		}
+
+		if (Boolean.parseBoolean(prop.getProperty("headless")))
+			co.setHeadless(true);
+		if (Boolean.parseBoolean(prop.getProperty("incognito")))
+			co.addArguments("--incognito");
+		return co;
+	}
+
+	public FirefoxOptions getFirefoxOption() {
+		fo = new FirefoxOptions();
+		if (Boolean.parseBoolean(prop.getProperty("remote"))) {
+			fo.setCapability("enableVNC", true);
+			fo.setBrowserVersion(prop.getProperty("browserversion"));
+
+		}
+
+		if (Boolean.parseBoolean(prop.getProperty("headless")))
+			fo.setHeadless(true);
+		if (Boolean.parseBoolean(prop.getProperty("incognito")))
+			fo.addArguments("--incognito");
+		return fo;
+	}
+
+	public EdgeOptions getEdgeOptions() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+//	public InternetExplorerOptions getInternetOption() {
+//		io = new InternetExplorerOptions();
+//		if (Boolean.parseBoolean(prop.getProperty("headless")))
+//			io.
+//		if (Boolean.parseBoolean(prop.getProperty("incognito")))
+//			io.addArguments("--incognito");
+//		return io;
+//	}
 }

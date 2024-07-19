@@ -9,6 +9,7 @@
       <class name="com.qa.opencart.tests.LoginPageTest">
         <methods>
           <include name="verifyFailTest"/>
+          <include name="verifyLoginPageTitle"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.qa.opencart.tests.LoginPageTest -->
